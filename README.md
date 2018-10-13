@@ -1,4 +1,4 @@
-# Ansible role for Docker CE installation ( molecule driven tests )
+# Ansible role for Linux server base configuration ( molecule driven tests )
 
 This role configures the base linux server
 
