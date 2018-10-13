@@ -1,0 +1,4 @@
+---
+
+- include_tasks: "common/main.yml"
+- include_tasks: "{{ ansible_distribution | lower }}/main.yml"
