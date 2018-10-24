@@ -1,0 +1,6 @@
+---
+
+- name: Install python packages
+  pip:
+    state: latest
+    name: "{{ base_packages.pip }}"
