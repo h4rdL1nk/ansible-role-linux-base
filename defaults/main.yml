@@ -9,3 +9,4 @@ sysctl:
 base_packages:
   centos:
     - lvm2
+    - pyOpenSSL
