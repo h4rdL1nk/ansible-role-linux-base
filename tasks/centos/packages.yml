@@ -1,5 +1,11 @@
 ---
 
+- name: Install EPEL repositories
+  yum:
+    state: present
+    name: epel-release
+    update_cache: true
+
 - name: Install base packages
   yum:
     state: present
