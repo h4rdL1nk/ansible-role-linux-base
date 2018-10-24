@@ -9,6 +9,7 @@ sysctl:
 base_packages:
   centos:
     - lvm2
+    - epel-release
     - python2-pip
   pip:
     - pyOpenSSL
